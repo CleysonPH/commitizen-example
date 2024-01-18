@@ -23,3 +23,7 @@ func Pow(a, b int) int {
 	}
 	return result
 }
+
+func Mod(a, b int) int {
+	return a % b
+}
