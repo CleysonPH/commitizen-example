@@ -22,3 +22,10 @@ func TestMul(t *testing.T) {
 		t.Error("Expected 2 * 3 to equal 6")
 	}
 }
+
+func TestDiv(t *testing.T) {
+	t.Log("Testing Div")
+	if Div(6, 3) != 2 {
+		t.Error("Expected 6 / 3 to equal 2")
+	}
+}
