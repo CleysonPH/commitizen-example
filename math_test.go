@@ -37,3 +37,10 @@ func TestPow(t *testing.T) {
 		t.Errorf("Expected 2 ^ 3 to equal 8, got %d", result)
 	}
 }
+
+func TestMod(t *testing.T) {
+	t.Log("Testing Mod")
+	if Mod(7, 3) != 1 {
+		t.Error("Expected 7 % 3 to equal 1")
+	}
+}
