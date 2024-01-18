@@ -21,6 +21,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           changelog_increment_filename: body.md
+          push: true
 
       - name: Release
         uses: softprops/action-gh-release@v1
