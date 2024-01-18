@@ -15,3 +15,10 @@ func TestSub(t *testing.T) {
 		t.Error("Expected 2 - 1 to equal 1")
 	}
 }
+
+func TestMul(t *testing.T) {
+	t.Log("Testing Mul")
+	if Mul(2, 3) != 6 {
+		t.Error("Expected 2 * 3 to equal 6")
+	}
+}
