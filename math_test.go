@@ -29,3 +29,11 @@ func TestDiv(t *testing.T) {
 		t.Error("Expected 6 / 3 to equal 2")
 	}
 }
+
+func TestPow(t *testing.T) {
+	t.Log("Testing Pow")
+	result := Pow(2, 3)
+	if result != 8 {
+		t.Errorf("Expected 2 ^ 3 to equal 8, got %d", result)
+	}
+}
